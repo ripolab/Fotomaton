@@ -45,8 +45,8 @@ def countdown():
 
 # Fickr
 #https://stuvel.eu/flickrapi-doc/index.html
-api_key = u'631c7d00bfef4075cf90c0ad05e2c65c'
-api_secret = u'297e2fa2f48cf915'
+api_key = u'KEY_API'
+api_secret = u'SECRET_API'
 
 flickr = flickrapi.FlickrAPI(api_key, api_secret)
 flickr.authenticate_via_browser(perms='write')
